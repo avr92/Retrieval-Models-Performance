@@ -1,0 +1,33 @@
+C:\Users\Baala\OneDrive\NEU\Summe2016\IR\Assignment1\Data\AP89_DATA\AP_DATA>perl trec_eval.pl qrels.adhoc.51-100.AP89.txt okapitf.txt
+
+Queryid (Num):       25
+Total number of documents over all queries
+    Retrieved:    25000
+    Relevant:      1832
+    Rel_ret:       1175
+Interpolated Recall - Precision Averages:
+    at 0.00       0.6407
+    at 0.10       0.4869
+    at 0.20       0.3874
+    at 0.30       0.3171
+    at 0.40       0.2593
+    at 0.50       0.2041
+    at 0.60       0.1603
+    at 0.70       0.1406
+    at 0.80       0.1022
+    at 0.90       0.0640
+    at 1.00       0.0100
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.2314
+Precision:
+  At    5 docs:   0.4080
+  At   10 docs:   0.3920
+  At   15 docs:   0.3680
+  At   20 docs:   0.3400
+  At   30 docs:   0.3133
+  At  100 docs:   0.2040
+  At  200 docs:   0.1430
+  At  500 docs:   0.0809
+  At 1000 docs:   0.0470
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.2561
